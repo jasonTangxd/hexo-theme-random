@@ -9,8 +9,7 @@ opacityValue = 0.85
 mobileMaxWidth = 480px
 mobileOpacityValue = 0.95
 codeFontFamily = Consolas, Monaco, Courier New, Lucida Console;
-// code line height
-codeLineHeight = 22px
+
 body
   background-color: #34495E;
   margin: 0px;
@@ -110,6 +109,7 @@ a:hover {
   cursor: pointer;
   font-weight: none;
   padding-bottom: 10px;
+  font-size: 14px;
 }
 
 #random-index .index-nav-link {
@@ -579,7 +579,7 @@ figure.highlight
     padding-right: 20px;
 
   .line
-    height: codeLineHeight;
+    white-space: pre-wrap;
 
 code
   font-family: codeFontFamily;
@@ -590,7 +590,6 @@ code
 
 table .line
   font-family: codeFontFamily;
-  height: codeLineHeight;
 
 blockquote
   background-color: #EEE;

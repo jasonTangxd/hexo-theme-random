@@ -5,18 +5,14 @@ language: en
 # main menu navigation
 menu:
   Home: index.html
-  Archives: archives
-  Tags: tags
-  Categories: categories
-  About: about
-  Github: https://github.com/stiekel/hexo-theme-random
+  Blog: https://blog.xiaoxiaomo.com
 
 social:
-  GitHub: https://github.com/stiekel/hexo-theme-random
-  Coding.NET: https://coding.net/u/Stiekel
-  Twitter: https://twitter.com/SidCN
-  Weibo: http://weibo.com/sidcn
-  DouBan: http://www.douban.com/people/Stiekel/
+  GitHub: https://github.com/jasonTangxd
+  Coding.NET: https://coding.net/u/xiaoxiaomo
+  Twitter: https://twitter.com/jason_1117
+  Weibo: https://weibo.com/tangxuandong
+  DouBan: https://www.douban.com/people/66126412/
 
 # Google analytics
 google_analytics:
@@ -81,11 +77,14 @@ turnoffBackgroundImage:
 backgroundColor: 34495E
  
 backgroundImages:
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_1.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_2.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_3.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_4.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_5.jpg?imageView2/1/w/__width__/h/__height__
+ - https://img.xiaoxiaomo.com/blog/img/bg3.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg1.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg2.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg4.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg5.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg6.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg7.jpg
+ - https://img.xiaoxiaomo.com/blog/img/bg8.jpg
 
 vegasConfig:
   # more about config http://vegas.jaysalvat.com/documentation/settings/
@@ -111,7 +110,7 @@ unsplashConfig:
   gravity: 'north' # north, east, south, west, center
   # greyscale: true
 
-avatar: http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg
+avatar: https://img.xiaoxiaomo.com/blog/img/head1.jpg
 
 # do not like fancybox, set this as false, this will turn it off
 fancybox: true

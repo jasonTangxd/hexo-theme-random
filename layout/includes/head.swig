@@ -1,4 +1,4 @@
-{% set pageTitle = page.title || config.subtitle || '' %}
+{% set pageTitle = config.title || config.subtitle || '' %}
 {% if is_archive() %}
   {% set pageTitle = _p('archive_title') %}
 {% endif %}
